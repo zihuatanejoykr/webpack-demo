@@ -8,10 +8,12 @@
     <script src="http://s.thsi.cn/cb?iwencai/js/lib/;zepto/zepto-1.2.0/zepto.min.js"></script>
 
     <!--本地 css示例-->
-    <link type="text/css" rel="stylesheet" href="./styles/common.css">
-    <link type="text/css" rel="stylesheet" href="./styles/style.css">
+    <!--<link type="text/css" rel="stylesheet" href="./styles/common.css">
+    <link type="text/css" rel="stylesheet" href="./styles/style.css">-->
 
-
+<!--<script>
+    require();
+</script>-->
 </head>
 <body>
 <div class="top_bar">
@@ -31,22 +33,15 @@
 
 <div class="demo_box image_box">
     <h2 class="title">图片资源：</h2>
+    <img src="${require('./images/zhanlang.jpg')}" class="image_1">
     <img src="./images/zhanlang.jpg" class="image_1">
     <h2 class="title">背景图片：</h2>
     <div class="background_1"></div>
 </div>
 
-<div class="demo_box data_box">
-    <h2 class="title">数据：</h2>
-    <ul class="data_ctrl_bar clearfix">
-        <li class="data_ctrl_btn">XML</li>
-        <li class="data_ctrl_btn">JSON</li>
-    </ul>
-</div>
+<div class="demo_box image_box">
+    <h2 class="title">子模板：</h2>
 
-<div class="main_con">
-    <div class="history_con"></div>
-    <div class="dialog_con"></div>
 </div>
 </body>
 </html>
