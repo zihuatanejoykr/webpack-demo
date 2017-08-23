@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>本地图片、css、字体等资源加载示例</title>
+
+    <style>
+        html{
+            font-size:20px;
+        }
+        body{
+            color:#f00;
+        }
+
+    </style>
+</head>
+<body>
+<div class="top_bar">
+    <ul class="top_bar_list clearfix">
+        <li class="item channel_btn_1">栏目1</li>
+        <li class="item">栏目2</li>
+        <li class="item">栏目3</li>
+    </ul>
+</div>
+
+<div class="demo_box font_box">
+    <h2 class="title">字体资源：</h2>
+    <div class="item font_0">123456789</div>
+    <div class="item font_1">123456789</div>
+    <div class="item font_2">123456789</div>
+</div>
+
+<div class="demo_box image_box">
+    <h2 class="title">图片资源：</h2>
+    <img src="${require('./images/zhanlang.jpg')}" class="image_1">
+    <img src="./images/zhanlang.jpg" class="image_1">
+    <h2 class="title">背景图片：</h2>
+    <div class="background_1"></div>
+</div>
+
+<!--<div class="demo_box image_box">
+    <h2 class="title">子模板：</h2>
+
+</div>-->
+</body>
+</html>
